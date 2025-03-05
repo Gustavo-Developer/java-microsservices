@@ -56,7 +56,8 @@ paste on your browser: http://localhost:5050/
 the application need an password, you can see the password on your docker-file.ylm
 if you don't change anything on your archive your password probably is the default: "password"
 
-after you need to create a server with the same credentials 
+after you need to create a server with the same credentials.
+you also need to create a table called "customer".
 
 
 Now you are ready to start experimenting with microservices! 🚀
