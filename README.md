@@ -14,6 +14,11 @@ This application is designed to study how microservices work together using vari
 
 ## Getting Started
 
+To download maven dependencies type in your terminal:
+```sh
+mvn clean install
+```
+
 ### Running the Containers
 To download and start all required containers, run the following command in your terminal:
 
@@ -44,5 +49,14 @@ docker compose ps
 ```
 
 ---
+
+after this you be able to see the pgAdmin on port 5050.
+paste on your browser: http://localhost:5050/
+
+the application need an password, you can see the password on your docker-file.ylm
+if you don't change anything on your archive your password probably is the default: "password"
+
+after you need to create a server with the same credentials 
+
 
 Now you are ready to start experimenting with microservices! 🚀
